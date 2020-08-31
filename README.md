@@ -11,4 +11,11 @@
   3. Less is more Impactive.
   - The above 3 points are given by Darkhorse Analytics.
 ## Matplotlib.
-- It is one of the most widely used, if not the most popular data visualization library in Python. It was created by John Hunter, an neurobiologist. Matplotlib was originally developed as an ECoG visualization tool, and just like MATLAB, Matplotlib was equipped with a scripting interface for quick
+- It is one of the most widely used, if not the most popular data visualization library in Python. It was created by John Hunter, an neurobiologist. Matplotlib was originally developed as an ECoG visualization tool, and just like MATLAB, Matplotlib was equipped with a scripting interface for quick and easy generation of Graphics represented by Pyplot.
+- It composed of 3 main layers, the back-end layer, the artist layer and the scripting layer.
+1. Backend Layer: It has 3 build-in abstract interface classes.
+  - Figure Canvas: Encompasses the area onto which the figure is drawn.
+  - Renderer: Knows how to draw on the Figure Canvas.
+  - Event: Handles user inputs such as keyboard strakes and mouse clicks.
+2. Artist Layer:   
+  
