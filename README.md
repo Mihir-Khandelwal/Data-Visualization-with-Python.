@@ -17,5 +17,10 @@
   - Figure Canvas: Encompasses the area onto which the figure is drawn.
   - Renderer: Knows how to draw on the Figure Canvas.
   - Event: Handles user inputs such as keyboard strakes and mouse clicks.
-2. Artist Layer:   
+2. Artist Layer: It comprises of one main object-Artist. There are 2 types of artist objects.
+  - Primitive: Line 2D, Rectangular, Circle and Text.
+  - Composite: Axis, Tick, Axes and Figure.
+- Each composite artist may contain other composite artists as well as primitive artists.
+3. Scripting layer: Comparised mainly of pyplot, a scripting interface that is lighter that the Artist layer. It is used by the scientists who are not professional programmers.
+
   
