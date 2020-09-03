@@ -23,6 +23,10 @@
 - Each composite artist may contain other composite artists as well as primitive artists.
 3. Scripting layer: Comparised mainly of pyplot, a scripting interface that is lighter that the Artist layer. It is used by the scientists who are not professional programmers.
 ## Using Matplotlib.
-import matplotlib.pyplot as plt
-plt.plot(5,5,'o')
-plt.show()
+- import matplotlib.pyplot as plt
+- plt.plot(5,5,'o')
+- plt.show()
+- It will print a dot on(5,5) on the browser. If the plot is generating in a new window, then you can enforce generating plots within the browser, using a magic function. It starts with % Matpotlib, i.e. % matplotlib inline. Here inline is used as an backend.
+- Pandas also has built-in implementation of matplotlib.
+## Dataset.
+
