@@ -22,5 +22,7 @@
   - Composite: Axis, Tick, Axes and Figure.
 - Each composite artist may contain other composite artists as well as primitive artists.
 3. Scripting layer: Comparised mainly of pyplot, a scripting interface that is lighter that the Artist layer. It is used by the scientists who are not professional programmers.
-
-  
+## Using Matplotlib.
+import matplotlib.pyplot as plt
+plt.plot(5,5,'o')
+plt.show()
