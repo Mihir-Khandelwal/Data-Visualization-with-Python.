@@ -29,4 +29,18 @@
 - It will print a dot on(5,5) on the browser. If the plot is generating in a new window, then you can enforce generating plots within the browser, using a magic function. It starts with % Matpotlib, i.e. % matplotlib inline. Here inline is used as an backend.
 - Pandas also has built-in implementation of matplotlib.
 ## Dataset.
-
+- In this learning we will be using the following dataset.
+- The population division of the United Nations compiled data pertaining to 45 countries. For each country, annual data on the flows of international migrants is reported in addition to other metadata. We will primarily work with a United Nations data on immigrations to Canada.
+------
+## Read Data into Pandas Dataframe.
+- import numpy as np
+- import pandas as pd
+- from_future_import print_function
+- #pip install.xlrd
+- print("xlrd installed")
+- df_can = pd.read_excel
+- (https:// ------||------ (link of excel file)
+- sheetname = "Canada by Citizenship",
+- skiprows = range(20),
+- skip_footer = 2)
+- By using the head() function you can see the first 5 rows of dataframe, i.e. df_can.head().
