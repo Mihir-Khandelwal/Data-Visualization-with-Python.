@@ -10,6 +10,7 @@
   2. Less is more Attractive.
   3. Less is more Impactive.
   - The above 3 points are given by Darkhorse Analytics.
+  ------
 ## Matplotlib.
 - It is one of the most widely used, if not the most popular data visualization library in Python. It was created by John Hunter, an neurobiologist. Matplotlib was originally developed as an ECoG visualization tool, and just like MATLAB, Matplotlib was equipped with a scripting interface for quick and easy generation of Graphics represented by Pyplot.
 - It composed of 3 main layers, the back-end layer, the artist layer and the scripting layer.
@@ -22,12 +23,14 @@
   - Composite: Axis, Tick, Axes and Figure.
 - Each composite artist may contain other composite artists as well as primitive artists.
 3. Scripting layer: Comparised mainly of pyplot, a scripting interface that is lighter that the Artist layer. It is used by the scientists who are not professional programmers.
+------
 ## Using Matplotlib.
 - import matplotlib.pyplot as plt
 - plt.plot(5,5,'o')
 - plt.show()
 - It will print a dot on(5,5) on the browser. If the plot is generating in a new window, then you can enforce generating plots within the browser, using a magic function. It starts with % Matpotlib, i.e. % matplotlib inline. Here inline is used as an backend.
 - Pandas also has built-in implementation of matplotlib.
+------
 ## Dataset.
 - In this learning we will be using the following dataset.
 - The population division of the United Nations compiled data pertaining to 45 countries. For each country, annual data on the flows of international migrants is reported in addition to other metadata. We will primarily work with a United Nations data on immigrations to Canada.
