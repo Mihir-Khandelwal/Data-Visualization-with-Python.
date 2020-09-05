@@ -47,3 +47,5 @@
 - skiprows = range(20),
 - skip_footer = 2)
 - By using the head() function you can see the first 5 rows of dataframe, i.e. df_can.head().
+## Line Plots.
+- A line plot is a type of plot which displays information as a series of data points called 'markers' connected by straight line segments.
