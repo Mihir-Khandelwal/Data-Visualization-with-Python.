@@ -50,3 +50,16 @@
 ------
 ## Line Plots.
 - A line plot is a type of plot which displays information as a series of data points called 'markers' connected by straight line segments.
+- It is generally used when we have a continuous dataset and we are interested in visualizing the data over a period of time.
+- Creating Line Plots.
+  - import matplotlib as mpl
+  - import matplotlib.pyplot as plt
+  - years = list(map(str,range(1980,2014)))
+  - df_canada.loc['Haiti',years].plot
+  - plt.title('Immigration from Haiti')
+  - plt.ylabel('Number of Immigrants')
+  - plt.xlabel('Years')
+  - plt.show()
+------
+## Area Plots.
+- 
