@@ -62,4 +62,26 @@
   - plt.show()
 ------
 ## Area Plots.
-- 
+- An area plot known as an area chart or graph is a type of plot that depicts accumulated totals using numbers or percentages over time.
+- It is generally used when we are trying to compare two or more quantities. It is based on line plot.
+- Creating Area Plots.
+  - To sort our dataframe in decending order we used sort_values function.
+  
+  - years = list(map(str,range(1980,2014)))
+  - df_canada.sort_values(['Total'])
+  - ascending = False, axis=0, inplace = True
+  - df_top5 = df_canada.head()
+  - df_top5 = df_top5[years].transpose()
+  
+  - Now, we can plot the area plot by calling the plot function on dataframe.
+  
+  - import matplotlib as mpl
+  - import matplotlib.pyplot as plt
+  - df_top5.plot(kind = 'area')
+  - plt.title("Immigration trend of top 5 countries")
+  - plt.ylabel('Number of immigrants')
+  - plt.xlabel('Years')
+  - plt.show()
+  
+  - Here, we have generated the area plot using the inline backend.
+  
