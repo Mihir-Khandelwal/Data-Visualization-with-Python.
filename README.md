@@ -81,7 +81,8 @@
   - plt.ylabel('Number of immigrants')
   - plt.xlabel('Years')
   - plt.show()
-- Here, we have generated the area plot using the inline backend.
+  
+  - Here, we have generated the area plot using the inline backend.
   ------
 ## Histograms.
 - A Histogram ia a way of representing the frequency distribution of a variable.
