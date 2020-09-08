@@ -72,7 +72,6 @@
   - ascending = False, axis=0, inplace = True
   - df_top5 = df_canada.head()
   - df_top5 = df_top5[years].transpose()
-  
 - Now, we can plot the area plot by calling the plot function on dataframe.
   
   - import matplotlib as mpl
