@@ -81,7 +81,6 @@
   - plt.ylabel('Number of immigrants')
   - plt.xlabel('Years')
   - plt.show()
-  
 - Here, we have generated the area plot using the inline backend.
   ------
 ## Histograms.
