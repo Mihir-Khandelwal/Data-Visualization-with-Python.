@@ -82,7 +82,7 @@
   - plt.show()
 - Here, we have generated the area plot using the inline backend.
 
-  ------
+------
 ## Histograms.
 - A Histogram ia a way of representing the frequency distribution of a variable.
 - Creating Histogram.
