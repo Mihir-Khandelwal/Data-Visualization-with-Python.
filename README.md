@@ -73,7 +73,6 @@
   - df_top5 = df_canada.head()
   - df_top5 = df_top5[years].transpose()
 - Now, we can plot the area plot by calling the plot function on dataframe.
-  
   - import matplotlib as mpl
   - import matplotlib.pyplot as plt
   - df_top5.plot(kind = 'area')
@@ -81,8 +80,7 @@
   - plt.ylabel('Number of immigrants')
   - plt.xlabel('Years')
   - plt.show()
-  
-  - Here, we have generated the area plot using the inline backend.
+- Here, we have generated the area plot using the inline backend.
   ------
 ## Histograms.
 - A Histogram ia a way of representing the frequency distribution of a variable.
