@@ -65,8 +65,7 @@
 - An area plot known as an area chart or graph is a type of plot that depicts accumulated totals using numbers or percentages over time.
 - It is generally used when we are trying to compare two or more quantities. It is based on line plot.
 - Creating Area Plots.
-  - To sort our dataframe in decending order we used sort_values function.
-  
+- To sort our dataframe in decending order we used sort_values function.
   - years = list(map(str,range(1980,2014)))
   - df_canada.sort_values(['Total'])
   - ascending = False, axis=0, inplace = True
