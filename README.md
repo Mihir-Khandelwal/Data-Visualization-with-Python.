@@ -95,3 +95,20 @@
   - plt.show()
 -  By importing numpy library, we can make our Histogram easy to read.
 
+------
+## Bar Charts.
+- A bar chart also known as a bar graph is a type  of plot where the length of each bar is proportional to the value of the item that it represents.
+- It is commonly used to compare the values of a variable at a given point of time. 
+- Creating Bar Charts.
+  - import matplotlib as mpl
+  - import matplotlib.pyplot as plt
+  - years = list(map(str,range(1980,2014)))
+  - df_iceland = df_canada.loc['Iceland',years]
+  - df_iceland.pyplot(kind='bar')
+  - plt.title('Icelandic Immigration to Canada from 1980 to 2013')
+  - plt.xlabel('Year')
+  - plt.ylabel('Number of immigrants')
+  - plt.show()
+  
+------  
+  
