@@ -110,4 +110,17 @@
   - plt.show()
   
 ------  
+## Pie Charts.
+- A pie chart is a circular statistical graphic divided into slices to illustrate numerical proportion.
+- Creating Pie Chart.
+- To group our data by continent using the continent column, and we use pandas for this.
+  - df_continents = df_canada.groupby('Continents',axis=0).sum()
+- Now, using matplotlib we do it as follows.
+  - import matplotlib as mpl
+  - import matplotlib.pyplot as plt
+  - df_continents['Total'].plot(kind='pie')
+  - plt.title('Immigration to Canada by Continent[1980-2013]')
+  - plt.show()
+- Bar charts are much more better than Pir charts.
+
   
