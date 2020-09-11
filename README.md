@@ -123,4 +123,15 @@
   - plt.show()
 - Bar charts are much more better than Pir charts.
 
+------
+## Box Plots.
+- A box plot is a way of statistically representing the distribution of given data through five main dimensions, i.e. minimum, first quartile, median, third quartile, maximum.
+- Creating Box Plots.
+  - import matplotlib as mpl
+   - import matplotlib.pyplot as plt
+   - df_japan = df_canada.loc[['Japan'],[years].transpose()
+   - df_japan.plot(kind='box')
+   - plt.title('Box plot of Japanese immigrants from 1980 to 2013')
+   - plt.ylabel("Number of immigrants")
+   - plt.show()
   
