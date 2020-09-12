@@ -134,4 +134,15 @@
    - plt.title('Box plot of Japanese immigrants from 1980 to 2013')
    - plt.ylabel("Number of immigrants")
    - plt.show()
-  
+------
+## Scatter Plots.
+- A scatter plot is a type of plot that displays values pertaining to typically two variables against each other.
+- Creating Scatter Plots.
+  - import matplotlib as mpl
+  - import matplotlib.pyplot as plt
+  - df_total.plot(kind='scatter', x='year', y='total')
+  - plt.title('Total immigrant population to canada from 1980 to 2013')
+  - plt.xlabel('Year')
+  - plt.ylabel('Number of Immigrants')
+  - plt.show()
+- The scatter plot clearly depicts an overall trend of the given plot with time.  
