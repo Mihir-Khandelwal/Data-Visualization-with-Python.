@@ -60,6 +60,7 @@
   - plt.ylabel('Number of Immigrants')
   - plt.xlabel('Years')
   - plt.show()
+  
 ![](https://miro.medium.com/max/481/1*zhXyt_vc04KTPHLCU2Yf8Q.png)
 
 ------
