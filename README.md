@@ -60,6 +60,8 @@
   - plt.ylabel('Number of Immigrants')
   - plt.xlabel('Years')
   - plt.show()
+![](https://miro.medium.com/max/481/1*zhXyt_vc04KTPHLCU2Yf8Q.png)
+
 ------
 ## Area Plots.
 - An area plot known as an area chart or graph is a type of plot that depicts accumulated totals using numbers or percentages over time.
