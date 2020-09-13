@@ -84,6 +84,8 @@
   - plt.show()
 - Here, we have generated the area plot using the inline backend.
 
+![](https://cdn.journaldev.com/wp-content/uploads/2020/05/area-plot-in-r.png)
+
 ------
 ## Histograms.
 - A Histogram ia a way of representing the frequency distribution of a variable.
