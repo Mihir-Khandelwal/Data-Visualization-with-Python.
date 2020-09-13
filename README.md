@@ -148,4 +148,11 @@
   - plt.xlabel('Year')
   - plt.ylabel('Number of Immigrants')
   - plt.show()
-- The scatter plot clearly depicts an overall trend of the given plot with time.  
+- The scatter plot clearly depicts an overall trend of the given plot with time.
+
+------
+## Waffle Chart.
+- A waffle chart is a great way to visualize data in relation to a whole or to highlight progress against a given threshold.
+- It is normally created to display progress towards goals.
+- Here the contribution of each country is transformed into a number of tiles that is proportional to the country's contribution to the total, so that more the tiles, resulting in what resembles a waffle resembles a waffle when combined.
+ 
