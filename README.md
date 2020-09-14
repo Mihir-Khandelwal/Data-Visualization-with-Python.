@@ -99,6 +99,8 @@
   - plt.show()
 -  By importing numpy library, we can make our Histogram easy to read.
 
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Histogram_of_arrivals_per_minute.svg/1200px-Histogram_of_arrivals_per_minute.svg.png)
+
 ------
 ## Bar Charts.
 - A bar chart also known as a bar graph is a type  of plot where the length of each bar is proportional to the value of the item that it represents.
@@ -113,9 +115,6 @@
   - plt.xlabel('Year')
   - plt.ylabel('Number of immigrants')
   - plt.show()
-  
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Histogram_of_arrivals_per_minute.svg/1200px-Histogram_of_arrivals_per_minute.svg.png)
-  
 ------  
 ## Pie Charts.
 - A pie chart is a circular statistical graphic divided into slices to illustrate numerical proportion.
