@@ -162,4 +162,12 @@
 ## Word Cloud.
 - A word cloud is simply a depiction of the importance of different words in the body of the text.
 - The more a specific word appears in a source of textual data the bigger and bolder it appears in the word cloud.
- 
+------
+## Seaborn.
+- Seaborn is a python visualization library based on Matplotlib. It is build to provide a high level interface for drawing attractive statistical graphics, such as Regression plots, Box plots and so on.
+- With Seaborn we can generate plots with code that is 5 times less than with Matplotlib.
+- Creating Seaborn.
+  - import seaborn as sns
+  - ax = sns .regplot(x='year',y='total',data=df_tot)
+- The above is the code of scatter plot with a regression line and also with 95% confidence level.
+- Using the color and marker parameter, we can change the colour and marker too.
