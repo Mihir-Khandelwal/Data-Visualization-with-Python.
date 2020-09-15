@@ -115,6 +115,8 @@
   - plt.xlabel('Year')
   - plt.ylabel('Number of immigrants')
   - plt.show()
+  
+  ![](https://chartio.com/assets/dfd59f/tutorials/charts/grouped-bar-charts/c1fde6017511bbef7ba9bb245a113c07f8ff32173a7c0d742a4e1eac1930a3c5/grouped-bar-example-1.png)
 ------  
 ## Pie Charts.
 - A pie chart is a circular statistical graphic divided into slices to illustrate numerical proportion.
