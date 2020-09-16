@@ -173,3 +173,13 @@
   - ax = sns .regplot(x='year',y='total',data=df_tot)
 - The above is the code of scatter plot with a regression line and also with 95% confidence level.
 - Using the color and marker parameter, we can change the colour and marker too.
+------
+## Folium.
+- Folium is a powerful data visualization library in python that was built to visualize geospatial data.
+- By knowing the latitude and longitude values, we can create a map of any location of any type.
+- Creating a map of Canada.
+  - world map=folium.Map(
+  - location=[56.130, -106.35]'
+  - zoom_start=4, tiles='StamenToner')
+  - world_map
+- We can also create a marker using feature group, as a red point on the current location.  
