@@ -183,3 +183,7 @@
   - zoom_start=4, tiles='StamenToner')
   - world_map
 - We can also create a marker using feature group, as a red point on the current location.  
+------
+## Choropleth Map.
+- A Choropleth map is a thematic map in which areas are shaded or patterned in proportion to the, measurement of the statistical variable being displayed on the map.
+- The higher the measurement, the darker is the colour.
