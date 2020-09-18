@@ -130,6 +130,7 @@
   - plt.title('Immigration to Canada by Continent[1980-2013]')
   - plt.show()
 - Bar charts are much more better than Pir charts.
+![](https://www.mathsisfun.com/data/images/pie-chart-movies.svg)
 
 ------
 ## Box Plots.
