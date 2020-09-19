@@ -189,3 +189,16 @@
 ## Choropleth Map.
 - A Choropleth map is a thematic map in which areas are shaded or patterned in proportion to the, measurement of the statistical variable being displayed on the map.
 - The higher the measurement, the darker is the colour.
+- In order to create a choropleth map of a region of interest, Folium requires a Geo JSON file that includes geospatial data of the region.
+- Creating a map.
+  - world_map = folium.Map(
+  - zoom_start = 2, titles='Mapbox Bright')
+  - world_geo= = r'world_countries.json'
+  - world_map.choropleth(
+  - geo_path = world_geo
+  - data=df_canada,
+  - columns=['Country','Total']
+  - key_on='features.properties.name',
+  - fill_color='LOrRD',
+  legend_name='Immigration to Canada')
+  - world_map
