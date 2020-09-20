@@ -144,6 +144,7 @@
    - plt.title('Box plot of Japanese immigrants from 1980 to 2013')
    - plt.ylabel("Number of immigrants")
    - plt.show()
+ ![](https://www.simplypsychology.org/boxplot.jpg)  
 ------
 ## Scatter Plots.
 - A scatter plot is a type of plot that displays values pertaining to typically two variables against each other.
