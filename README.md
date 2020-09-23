@@ -157,6 +157,7 @@
   - plt.ylabel('Number of Immigrants')
   - plt.show()
 - The scatter plot clearly depicts an overall trend of the given plot with time.
+
 ![](https://www.learnbyexample.org/wp-content/uploads/r/typical-scatter-plot.png)
 
 ------
