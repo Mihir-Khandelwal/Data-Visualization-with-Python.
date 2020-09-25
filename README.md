@@ -170,6 +170,7 @@
 ## Word Cloud.
 - A word cloud is simply a depiction of the importance of different words in the body of the text.
 - The more a specific word appears in a source of textual data the bigger and bolder it appears in the word cloud.
+![](https://lh3.googleusercontent.com/proxy/n2ZbeRiIP3boqkutSSBpR6u53HTvXXWmXS4o96ptwRTgJTGLntMl-lEvBgIqDEOxw4l9oJ2gv2ePlUpqUEzZvoYtK3_YuvKL2Uo-tWO13vN1l5N5UtO9KV5FIHLVKvF2qnrtDxNRhauI3cGNcU7isGxPVJU)
 ------
 ## Seaborn.
 - Seaborn is a python visualization library based on Matplotlib. It is build to provide a high level interface for drawing attractive statistical graphics, such as Regression plots, Box plots and so on.
