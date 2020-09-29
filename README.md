@@ -206,5 +206,5 @@
   - columns=['Country','Total']
   - key_on='features.properties.name',
   - fill_color='LOrRD',
-  legend_name='Immigration to Canada')
+  - legend_name='Immigration to Canada')
   - world_map
