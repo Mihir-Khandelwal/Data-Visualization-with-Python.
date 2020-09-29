@@ -180,6 +180,7 @@
   - ax = sns .regplot(x='year',y='total',data=df_tot)
 - The above is the code of scatter plot with a regression line and also with 95% confidence level.
 - Using the color and marker parameter, we can change the colour and marker too.
+![](https://miro.medium.com/max/2060/1*3VgCwcZraA0u5hMHpRhJcw.png)
 ------
 ## Folium.
 - Folium is a powerful data visualization library in python that was built to visualize geospatial data.
