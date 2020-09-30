@@ -209,4 +209,5 @@
   - fill_color='LOrRD',
   - legend_name='Immigration to Canada')
   - world_map
+  
 ![](https://datavizcatalogue.com/methods/images/top_images/choropleth.png)  
