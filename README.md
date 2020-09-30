@@ -190,7 +190,8 @@
   - location=[56.130, -106.35]'
   - zoom_start=4, tiles='StamenToner')
   - world_map
-- We can also create a marker using feature group, as a red point on the current location.  
+- We can also create a marker using feature group, as a red point on the current location.
+![](https://miro.medium.com/max/1105/1*tlsecoIK9kErqqrlvstBuQ.jpeg)
 ------
 ## Choropleth Map.
 - A Choropleth map is a thematic map in which areas are shaded or patterned in proportion to the, measurement of the statistical variable being displayed on the map.
@@ -208,3 +209,4 @@
   - fill_color='LOrRD',
   - legend_name='Immigration to Canada')
   - world_map
+![](https://datavizcatalogue.com/methods/images/top_images/choropleth.png)  
